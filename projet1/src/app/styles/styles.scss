@@ -1,0 +1,24 @@
+$background:rgb(197, 197, 197);
+
+html{
+    font-size: 16px;
+}
+body {
+    background-color: $background;
+
+    .form-group
+    {
+        margin:10px 0 10px 0; 
+
+        label{
+            display: block;
+        }
+    }
+}
+
+.column1,.column2
+{
+
+    padding: 20px;
+    border: 1px solid #000;
+}
